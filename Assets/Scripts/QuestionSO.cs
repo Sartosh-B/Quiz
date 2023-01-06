@@ -9,6 +9,9 @@ public class QuestionSO : ScriptableObject
     [SerializeField] string question = "Enter new question text";
     [SerializeField] string[] answers = new string[4];
     [SerializeField] int correctAnswerIndex;
+
+    
+
     public string GetQuestion()
     {
         return question;
